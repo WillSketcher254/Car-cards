@@ -2,11 +2,22 @@
 import './App.css'
 import Card from './Components/Card'
 
+import astonMartin from './assets/images/astonDB12.jpg'
+import bmw from './assets/images/bmwXM.jpg'
+import pagani from './assets/images/paganiHUAYA.jpg'
+import lambUrus from './assets/images/lamboURUS.jpg'
+import p911 from './assets/images/porsche911.jpg'
+import trav4 from './assets/images/toyotaRAV4.jpg'
+import mclaren from './assets/images/MCLarem.jpg'
+import supra from './assets/images/supra.jpg'
+import dgch from './assets/images/dodge.jpg'
+import hellcat from './assets/images/srt.jpg'
+
 function App() {
 
   const Cars = [
     {
-      image: './src/assets/images/astonDB12.jpg',
+      image: astonMartin,
       name: 'Aston Martin',
       make: 'DB12',
       color: 'Black',
@@ -14,7 +25,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/bmwXM.jpg',
+      image: bmw,
       name: 'BMW',
       make: 'SUV- XM',
       color: 'Cyan',
@@ -22,7 +33,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/paganiHUAYA.jpg',
+      image: pagani,
       name: 'Pagani',
       make: 'Huayra',
       color: 'Blue and Black',
@@ -30,7 +41,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/lamboURUS.jpg',
+      image: lambUrus,
       name: 'Lamborgini',
       make: 'URUS',
       color: 'White',
@@ -38,7 +49,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/porsche911.jpg',
+      image: p911,
       name: 'Porsche',
       make: '911',
       color: 'Sky Blue',
@@ -46,7 +57,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/toyotaRAV4.jpg',
+      image: trav4,
       name: 'Toyota',
       make: 'RAV4',
       color: 'Grey',
@@ -54,7 +65,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/MCLarem.jpg',
+      image: mclaren,
       name: 'MC Laren',
       make: 'P1',
       color: 'Yellow',
@@ -62,7 +73,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/supra.jpg',
+      image: supra,
       name: 'Toyota',
       make: 'Supra MK5',
       color: 'Grey',
@@ -70,7 +81,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/dodge.jpg',
+      image: dgch,
       name: 'Dodge',
       make: 'Charger',
       color: 'Black',
@@ -78,7 +89,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/srt.jpg',
+      image: hellcat,
       name: 'Dodge',
       make: 'Hellcat SRT',
       color: 'Black',
@@ -86,7 +97,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/supra.jpg',
+      image: supra,
       name: 'Toyota',
       make: 'Supra MK5',
       color: 'Grey',
@@ -94,7 +105,7 @@ function App() {
 
     },
     {
-      image: './src/assets/images/supra.jpg',
+      image: supra,
       name: 'Toyota',
       make: 'Supra MK5',
       color: 'Grey',
