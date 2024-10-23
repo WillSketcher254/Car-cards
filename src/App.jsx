@@ -71,6 +71,38 @@ function App() {
       color: 'Grey',
       year: '2019'
 
+    },
+    {
+      image: './src/assets/images/dodge.jpg',
+      name: 'Dodge',
+      make: 'Charger',
+      color: 'Black',
+      year: '1969'
+
+    },
+    {
+      image: './src/assets/images/srt.jpg',
+      name: 'Dodge',
+      make: 'Hellcat SRT',
+      color: 'Black',
+      year: '2018'
+
+    },
+    {
+      image: './src/assets/images/supra.jpg',
+      name: 'Toyota',
+      make: 'Supra MK5',
+      color: 'Grey',
+      year: '2019'
+
+    },
+    {
+      image: './src/assets/images/supra.jpg',
+      name: 'Toyota',
+      make: 'Supra MK5',
+      color: 'Grey',
+      year: '2019'
+
     }
   ];
 
